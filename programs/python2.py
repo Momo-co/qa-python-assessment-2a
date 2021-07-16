@@ -186,7 +186,14 @@ def six(string):
     # Use the cli to access the documentation help(list.sort)
 
 def seven(a, b, c):
-    return False
+    sortedList = [a, b, c]
+    sortedList.sort()
+
+    if sortedList[1] - sortedList[0] == sortedList[2] - sortedList[1]:
+        return True
+    else:
+        return False
+
 
     # <QUESTION 8>
 
