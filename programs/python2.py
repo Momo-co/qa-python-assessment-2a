@@ -102,7 +102,23 @@ def three(a):
     # How would you seperate a string into characters?
 
 def four(string1, string2):
-    return ""
+    merge = ""
+    list1 = []
+    list2 = []
+    for x in string1:
+        list1.append(x)
+    for y in string2:
+        list2.append(y)
+
+    for z in range(len(list1)):
+        merge += list1[z] + list2[z]
+    
+    return merge
+
+print (four("String","Fridge"))
+print (four("Dog","Cat"))
+print (four("True","Tree"))
+print (four("return","letter"))
 
     # <QUESTION 5>
 
