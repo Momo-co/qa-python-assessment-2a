@@ -158,7 +158,11 @@ def five():
     # There are no hints for this question.
     
 def six(string):
-    return False
+    string = string.casefold()
+    if string[-2] == 'p' and string[-1] == 'y':
+        return True
+    else: 
+        return False
 
     # <QUESTION 7>
 
