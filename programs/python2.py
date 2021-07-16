@@ -115,10 +115,6 @@ def four(string1, string2):
     
     return merge
 
-print (four("String","Fridge"))
-print (four("Dog","Cat"))
-print (four("True","Tree"))
-print (four("return","letter"))
 
     # <QUESTION 5>
 
